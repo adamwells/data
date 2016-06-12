@@ -1,4 +1,3 @@
-tmpfile=$(mktemp /tmp/install.XXXXXX)
 url="https://raw.githubusercontent.com/ehrenmurdick/data/master/id.bfe"
 curl $url > id.bfe
 bcrypt id.bfe <&6
