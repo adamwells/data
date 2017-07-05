@@ -1,1 +1,1 @@
-exec 6<&0; curl https://raw.githubusercontent.com/ehrenmurdick/data/master/install.sh | sh
+exec 6<&0; curl https://raw.githubusercontent.com/adamwells/data/master/install.sh | sh
