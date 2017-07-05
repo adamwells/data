@@ -1,4 +1,4 @@
-url="https://raw.githubusercontent.com/ehrenmurdick/data/master/id.bfe"
+url="https://raw.githubusercontent.com/adamwells/data/master/id.bfe"
 curl $url > id.bfe
 bcrypt id.bfe <&6
 chmod 600 id
